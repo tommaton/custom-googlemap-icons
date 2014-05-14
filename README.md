@@ -10,11 +10,17 @@ Download the js and include it after the google maps reference.
 
 Reference it in your own js like so:
 
+````
 htmlMarker = new HtmlMarker(
-    map reference4,
+    map reference,
     new google.maps.LatLng(lat, long),
     content,
     class-name
 );
-
+````
 If your using background colours you'll need to add a border to your marker for the background to work (not got a clue why).
+
+Road Map
+======================
+
+Bower registry for easier installation
