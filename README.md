@@ -17,4 +17,4 @@ htmlMarker = new HtmlMarker(
     class-name
 );
 
-If your using background colours
+If your using background colours you'll need to add a border to your marker for the background to work (not got a clue why).
